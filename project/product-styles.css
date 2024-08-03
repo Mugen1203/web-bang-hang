@@ -1,0 +1,107 @@
+/* Cài đặt cơ bản cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; 
+}
+
+/* Cấu trúc header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0; 
+    text-align: center;
+    position: relative; 
+}
+
+/* Logo trong header */
+.logo img {
+    width: 60px; /* Đặt kích thước hợp lý cho logo */
+    vertical-align: middle; 
+}
+
+/* Điều chỉnh điều hướng */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+/* Cấu trúc phần chính */
+main {
+    padding: 50px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Phần sản phẩm */
+.product {
+    border: 1px solid #ddd;
+    padding: 15px; 
+    margin: 10px 0;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+/* Điều chỉnh ảnh sản phẩm */
+.product img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của hộp sản phẩm */
+    height: auto; /* Giữ tỷ lệ khung hình của ảnh */
+    display: block; /* Căn giữa ảnh */
+    margin: 0 auto; /* Căn giữa ảnh */
+}
+
+/* Cấu trúc tiêu đề sản phẩm */
+.product h2 {
+    font-size: 24px; 
+    margin: 10px 0; 
+}
+
+/* Cấu trúc giá sản phẩm */
+.product p {
+    font-size: 18px;
+    margin: 10px 0; 
+}
+
+/* Cấu trúc button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cấu trúc footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); 
+}
